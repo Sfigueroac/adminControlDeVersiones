@@ -1,24 +1,16 @@
-**RF-02 Reserva de Sala**
----
---------------------------------------------------------
-**HU-02 – Reserva de Sala**
+## RF-01 Registro de Usuario
 
----
-
-Como usuario registrado
-quiero reservar una sala indicando fecha y hora
-para utilizar el espacio en el horario seleccionado
-Criterios de Aceptación
-
----
+#### HU-01 – Registro de Usuario
 
 
-•	Solo usuarios autenticados pueden reservar.
+Como visitante
+quiero registrarme con correo electrónico y contraseña
+para poder acceder a la plataforma
 
-•	No debe permitir reservar horarios ocupados.
 
-•	Debe mostrar el costo antes de confirmar.
+## Criterios de Aceptación
 
-•	Debe generarse confirmación de reserva.
-
----
+- El correo no debe estar previamente registrado.
+- La contraseña debe tener mínimo 8 caracteres.
+- El sistema debe validar formato correcto de correo.
+- Debe mostrarse mensaje de registro exitoso
